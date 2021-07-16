@@ -25,6 +25,7 @@ where
 
 import Control.Monad.Trans.Maybe as Exports (MaybeT (..), runMaybeT)
 import qualified Data.ByteString.Lazy as LB
+import Protolude.ConvertText (toUtf8)
 import Data.Time as Exports
   ( UTCTime (..),
     diffUTCTime,
